@@ -13,12 +13,16 @@
 		848F05181795DBBD001A4316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848F05161795DBBD001A4316 /* InfoPlist.strings */; };
 		848F051A1795DBBD001A4316 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F05191795DBBD001A4316 /* main.m */; };
 		848F051E1795DBBD001A4316 /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F051D1795DBBD001A4316 /* MPAppDelegate.m */; };
-		848F05201795DBBD001A4316 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F051F1795DBBD001A4316 /* Default.png */; };
-		848F05221795DBBD001A4316 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05211795DBBD001A4316 /* Default@2x.png */; };
-		848F05241795DBBD001A4316 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05231795DBBD001A4316 /* Default-568h@2x.png */; };
 		848F05271795DBBD001A4316 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F05251795DBBD001A4316 /* MainStoryboard_iPhone.storyboard */; };
 		848F052A1795DBBD001A4316 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F05281795DBBD001A4316 /* MainStoryboard_iPad.storyboard */; };
 		848F052D1795DBBD001A4316 /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F052C1795DBBD001A4316 /* MPViewController.m */; };
+		848F05351795DBDA001A4316 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05331795DBDA001A4316 /* icon.png */; };
+		848F05361795DBDA001A4316 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05341795DBDA001A4316 /* icon@2x.png */; };
+		848F05431795DC5C001A4316 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F053E1795DC5C001A4316 /* Default-568h@2x.png */; };
+		848F05441795DC5C001A4316 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F053F1795DC5C001A4316 /* Default.png */; };
+		848F05451795DC5C001A4316 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05401795DC5C001A4316 /* Default@2x.png */; };
+		848F05461795DC5C001A4316 /* MainMenu-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05411795DC5C001A4316 /* MainMenu-bg.png */; };
+		848F05471795DC5C001A4316 /* Options-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05421795DC5C001A4316 /* Options-bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +36,17 @@
 		848F051B1795DBBD001A4316 /* MisteryPath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MisteryPath-Prefix.pch"; sourceTree = "<group>"; };
 		848F051C1795DBBD001A4316 /* MPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
 		848F051D1795DBBD001A4316 /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
-		848F051F1795DBBD001A4316 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		848F05211795DBBD001A4316 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		848F05231795DBBD001A4316 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		848F05261795DBBD001A4316 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		848F05291795DBBD001A4316 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		848F052B1795DBBD001A4316 /* MPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
 		848F052C1795DBBD001A4316 /* MPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
+		848F05331795DBDA001A4316 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		848F05341795DBDA001A4316 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		848F053E1795DC5C001A4316 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		848F053F1795DC5C001A4316 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		848F05401795DC5C001A4316 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		848F05411795DC5C001A4316 /* MainMenu-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MainMenu-bg.png"; path = "../MainMenu-bg.png"; sourceTree = "<group>"; };
+		848F05421795DC5C001A4316 /* Options-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Options-bg.png"; path = "../Options-bg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		848F05011795DBBD001A4316 = {
 			isa = PBXGroup;
 			children = (
+				848F05331795DBDA001A4316 /* icon.png */,
+				848F05341795DBDA001A4316 /* icon@2x.png */,
 				848F05131795DBBD001A4316 /* MisteryPath */,
 				848F050C1795DBBD001A4316 /* Frameworks */,
 				848F050B1795DBBD001A4316 /* Products */,
@@ -87,11 +97,12 @@
 			children = (
 				848F051C1795DBBD001A4316 /* MPAppDelegate.h */,
 				848F051D1795DBBD001A4316 /* MPAppDelegate.m */,
-				848F05251795DBBD001A4316 /* MainStoryboard_iPhone.storyboard */,
-				848F05281795DBBD001A4316 /* MainStoryboard_iPad.storyboard */,
-				848F052B1795DBBD001A4316 /* MPViewController.h */,
-				848F052C1795DBBD001A4316 /* MPViewController.m */,
+				848F053B1795DC21001A4316 /* Assets */,
+				848F05371795DBEF001A4316 /* Views */,
+				848F053A1795DC15001A4316 /* Controllers */,
+				848F053D1795DC39001A4316 /* Classes */,
 				848F05141795DBBD001A4316 /* Supporting Files */,
+				848F053C1795DC28001A4316 /* Categories */,
 			);
 			path = MisteryPath;
 			sourceTree = "<group>";
@@ -99,15 +110,72 @@
 		848F05141795DBBD001A4316 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				848F053E1795DC5C001A4316 /* Default-568h@2x.png */,
+				848F053F1795DC5C001A4316 /* Default.png */,
+				848F05401795DC5C001A4316 /* Default@2x.png */,
 				848F05151795DBBD001A4316 /* MisteryPath-Info.plist */,
 				848F05161795DBBD001A4316 /* InfoPlist.strings */,
 				848F05191795DBBD001A4316 /* main.m */,
 				848F051B1795DBBD001A4316 /* MisteryPath-Prefix.pch */,
-				848F051F1795DBBD001A4316 /* Default.png */,
-				848F05211795DBBD001A4316 /* Default@2x.png */,
-				848F05231795DBBD001A4316 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		848F05371795DBEF001A4316 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				848F05381795DBF6001A4316 /* iPhone */,
+				848F05391795DC05001A4316 /* iPad */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		848F05381795DBF6001A4316 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				848F05251795DBBD001A4316 /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		848F05391795DC05001A4316 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				848F05281795DBBD001A4316 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		848F053A1795DC15001A4316 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848F052B1795DBBD001A4316 /* MPViewController.h */,
+				848F052C1795DBBD001A4316 /* MPViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		848F053B1795DC21001A4316 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				848F05411795DC5C001A4316 /* MainMenu-bg.png */,
+				848F05421795DC5C001A4316 /* Options-bg.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		848F053C1795DC28001A4316 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		848F053D1795DC39001A4316 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +231,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				848F05181795DBBD001A4316 /* InfoPlist.strings in Resources */,
-				848F05201795DBBD001A4316 /* Default.png in Resources */,
-				848F05221795DBBD001A4316 /* Default@2x.png in Resources */,
-				848F05241795DBBD001A4316 /* Default-568h@2x.png in Resources */,
 				848F05271795DBBD001A4316 /* MainStoryboard_iPhone.storyboard in Resources */,
 				848F052A1795DBBD001A4316 /* MainStoryboard_iPad.storyboard in Resources */,
+				848F05351795DBDA001A4316 /* icon.png in Resources */,
+				848F05361795DBDA001A4316 /* icon@2x.png in Resources */,
+				848F05431795DC5C001A4316 /* Default-568h@2x.png in Resources */,
+				848F05441795DC5C001A4316 /* Default.png in Resources */,
+				848F05451795DC5C001A4316 /* Default@2x.png in Resources */,
+				848F05461795DC5C001A4316 /* MainMenu-bg.png in Resources */,
+				848F05471795DC5C001A4316 /* Options-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +350,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MisteryPath/MisteryPath-Prefix.pch";
 				INFOPLIST_FILE = "MisteryPath/MisteryPath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +362,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MisteryPath/MisteryPath-Prefix.pch";
 				INFOPLIST_FILE = "MisteryPath/MisteryPath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
