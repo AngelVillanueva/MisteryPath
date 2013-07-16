@@ -7,13 +7,24 @@
 //
 
 #import "MPAppDelegate.h"
+#import "MPMainMenuGameState.h"
 
 @implementation MPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"Delegada");
+    // start loop
+    
+    // launch main menu
+    [self doStateChange:[MPMainMenuGameState class]];
+    
     return YES;
+}
+
+- (void)doStateChange:(Class)state {
+    NSLog(@"Hello from %@", state);
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

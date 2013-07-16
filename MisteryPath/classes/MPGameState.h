@@ -1,5 +1,5 @@
 //
-//  MPAppDelegate.h
+//  MPGameState.h
 //  MisteryPath
 //
 //  Created by Angel Villanueva Admin on 16/07/13.
@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#include "MPGameStateManager.h"
+#import "MPGameStateManager.h"
 
-@interface MPAppDelegate : MPGameStateManager <UIApplicationDelegate>
+@interface MPGameState : UIView {
+    MPGameStateManager *gameManager;
+}
 
-@property (strong, nonatomic) UIWindow *window;
+- (id)initWithManager:(MPGameStateManager *)manager;
 
 @end
