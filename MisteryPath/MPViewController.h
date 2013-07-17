@@ -11,5 +11,6 @@
 @interface MPViewController : UIViewController
 
 - (IBAction)goExtras:(id)sender;
+- (IBAction)goMenu:(id)sender;
 
 @end
