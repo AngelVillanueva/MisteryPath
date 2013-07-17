@@ -10,8 +10,4 @@
 
 @interface MPViewController : UIViewController
 
-//- (IBAction)goExtras:(id)sender;
-//- (IBAction)goMenu:(id)sender;
-//- (IBAction)goGame:(id)sender;
-
 @end

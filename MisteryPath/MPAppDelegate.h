@@ -15,5 +15,6 @@
 @property (strong, nonatomic) UIViewController *viewController;
 
 - (void)gameLoop:(id)sender;
+- (UIView *)getCurrentView;
 
 @end
