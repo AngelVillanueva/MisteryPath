@@ -8,14 +8,13 @@
 
 #import "MPAppDelegate.h"
 #import "MPViewController.h"
-#import "MPGameState.h"
+#import "MPMainMenuGameState.h"
 
 @implementation MPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    // Initialize viewController
     _viewController = _window.rootViewController;
     // start looping
     [NSTimer scheduledTimerWithTimeInterval:0.033 target:self selector:@selector(gameLoop:) userInfo:nil repeats:NO];

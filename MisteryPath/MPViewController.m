@@ -7,7 +7,6 @@
 //
 
 #import "MPViewController.h"
-#import "MPMainMenuGameState.h"
 
 @interface MPViewController ()
 
@@ -15,22 +14,26 @@
 
 @implementation MPViewController
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"Say hello");
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    NSLog(@"Say hello again");
 }
 
-- (void)changeState:(Class)state {
-    NSString *asset = [ NSString stringWithFormat:@"%@",state ];
-    MPViewController *nextState = [self.storyboard instantiateViewControllerWithIdentifier:asset];
-    self.view = [[state alloc] init];
-    [self presentViewController:nextState animated:YES completion:NULL];
+- (IBAction)goExtras:(id)sender {
+    
+    //NSLog(@"click with manager: %@", gameManager);
+    //[gameManager doStateChange:[MPExtrasGameState class]];
+    
+    MPViewController *extras = [self.storyboard instantiateViewControllerWithIdentifier:@"MPExtrasGameState"];
+    //self.view = [[GameGameState alloc] init];
+    [self presentViewController:extras animated:YES completion:NULL];
 }
 
 - (void)didReceiveMemoryWarning

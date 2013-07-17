@@ -10,6 +10,4 @@
 
 @interface MPMainMenuGameState : MPGameState
 
-- (IBAction)goExtras:(id)sender;
-
 @end

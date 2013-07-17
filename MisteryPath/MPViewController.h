@@ -10,6 +10,6 @@
 
 @interface MPViewController : UIViewController
 
-- (void)changeState:(Class)state;
+- (IBAction)goExtras:(id)sender;
 
 @end

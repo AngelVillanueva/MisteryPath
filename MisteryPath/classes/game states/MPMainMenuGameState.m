@@ -7,7 +7,6 @@
 //
 
 #import "MPMainMenuGameState.h"
-#import "MPExtrasGameState.h"
 
 @implementation MPMainMenuGameState
 
@@ -20,12 +19,12 @@
     return self;
 }
 
+
 - (void)update {
-    NSLog(@"Updating");
+    //NSLog(@"Updating");
 }
 
 - (void)render {
-    NSLog(@"Rendering");
 }
 
 /*
@@ -36,11 +35,5 @@
     // Drawing code
 }
 */
-
-- (IBAction)goExtras:(id)sender {
-    
-    NSLog(@"click");
-    [gameManager doStateChange:[MPExtrasGameState class]];
-}
 
 @end
