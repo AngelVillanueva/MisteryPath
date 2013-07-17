@@ -7,6 +7,7 @@
 //
 
 #import "MPViewController.h"
+#import "MPGameState.h"
 
 @interface MPViewController ()
 
@@ -26,25 +27,25 @@
 - (void)viewDidAppear:(BOOL)animated {
 }
 
-- (IBAction)goExtras:(id)sender {
-    
-    //NSLog(@"click with manager: %@", gameManager);
-    //[gameManager doStateChange:[MPExtrasGameState class]];
-    
-    MPViewController *extras = [self.storyboard instantiateViewControllerWithIdentifier:@"MPExtrasGameState"];
-    //self.view = [[GameGameState alloc] init];
-    [self presentViewController:extras animated:YES completion:NULL];
-}
-
-- (IBAction)goMenu:(id)sender {
-    MPViewController *menu = [self.storyboard instantiateViewControllerWithIdentifier:@"MPMainMenuGameState"];
-    [self presentViewController:menu animated:YES completion:NULL];
-}
-
-- (IBAction)goGame:(id)sender {
-    MPViewController *game = [self.storyboard instantiateViewControllerWithIdentifier:@"MPGameGameState"];
-    [self presentViewController:game animated:YES completion:NULL];
-}
+//- (IBAction)goExtras:(id)sender {
+//    
+//    //NSLog(@"click with manager: %@", gameManager);
+//    //[gameManager doStateChange:[MPExtrasGameState class]];
+//    
+//    MPViewController *extras = [self.storyboard instantiateViewControllerWithIdentifier:@"MPExtrasGameState"];
+//    //self.view = [[GameGameState alloc] init];
+//    [self presentViewController:extras animated:YES completion:NULL];
+//}
+//
+//- (IBAction)goMenu:(id)sender {
+//    MPViewController *menu = [self.storyboard instantiateViewControllerWithIdentifier:@"MPMainMenuGameState"];
+//    [self presentViewController:menu animated:YES completion:NULL];
+//}
+//
+//- (IBAction)goGame:(id)sender {
+//    MPViewController *game = [self.storyboard instantiateViewControllerWithIdentifier:@"MPGameGameState"];
+//    [self presentViewController:game animated:YES completion:NULL];
+//}
 
 - (void)didReceiveMemoryWarning
 {

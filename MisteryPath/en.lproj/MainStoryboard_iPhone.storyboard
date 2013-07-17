@@ -23,7 +23,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="goMenu:" destination="oo1-Ri-31g" eventType="touchUpInside" id="Xwf-ug-p0y"/>
+                                    <action selector="goMenu:" destination="l26-Kz-u65" eventType="touchUpInside" id="0nn-2S-R2t"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -63,7 +63,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="goExtras:" destination="2" eventType="touchUpInside" id="TEM-Sa-hVX"/>
+                                    <action selector="goExtras:" destination="3" eventType="touchUpInside" id="6Db-Md-zlz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHJ-H3-NfV">
@@ -76,7 +76,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="goGame:" destination="2" eventType="touchUpInside" id="Hoq-kY-v6e"/>
+                                    <action selector="goGame:" destination="3" eventType="touchUpInside" id="2dj-Ki-myQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -122,7 +122,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="goMenu:" destination="XEV-OV-FSx" eventType="touchUpInside" id="lFt-kK-NP9"/>
+                                    <action selector="goMenu:" destination="vTU-BO-Qrg" eventType="touchUpInside" id="klc-jL-cVX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -150,23 +150,28 @@
     <classes>
         <class className="MPExtrasGameState" superclassName="MPGameState">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MPExtrasGameState.h"/>
+            <relationships>
+                <relationship kind="action" name="goMenu:"/>
+            </relationships>
         </class>
         <class className="MPGameGameState" superclassName="MPGameState">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MPGameGameState.h"/>
+            <relationships>
+                <relationship kind="action" name="goMenu:"/>
+            </relationships>
         </class>
         <class className="MPGameState" superclassName="UIView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MPGameState.h"/>
         </class>
         <class className="MPMainMenuGameState" superclassName="MPGameState">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MPMainMenuGameState.h"/>
-        </class>
-        <class className="MPViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MPViewController.h"/>
             <relationships>
                 <relationship kind="action" name="goExtras:"/>
                 <relationship kind="action" name="goGame:"/>
-                <relationship kind="action" name="goMenu:"/>
             </relationships>
+        </class>
+        <class className="MPViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MPViewController.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

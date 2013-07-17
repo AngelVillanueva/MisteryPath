@@ -9,5 +9,6 @@
 #import "MPGameState.h"
 
 @interface MPGameGameState : MPGameState
+- (IBAction)goMenu:(id)sender;
 
 @end

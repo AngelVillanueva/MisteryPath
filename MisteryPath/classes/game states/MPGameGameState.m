@@ -7,6 +7,7 @@
 //
 
 #import "MPGameGameState.h"
+#import "MPMainMenuGameState.h"
 
 @implementation MPGameGameState
 
@@ -20,11 +21,11 @@
 }
 
 - (void)update {
-    NSLog(@"Updating");
+    //NSLog(@"Updating from Game");
 }
 
 - (void)render {
-    NSLog(@"Rendering");
+    //NSLog(@"Rendering from Game");
 }
 
 /*
@@ -36,4 +37,8 @@
 }
 */
 
+- (IBAction)goMenu:(id)sender {
+    gameManager = [[UIApplication sharedApplication] delegate];
+    [gameManager doStateChange:[MPMainMenuGameState class]];
+}
 @end

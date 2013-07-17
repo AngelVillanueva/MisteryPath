@@ -23,11 +23,28 @@
 }
 
 - (void)gameLoop:(id)sender {
+    // Get current view
+    MPGameState *currentView = (MPGameState *)[self getCurrentView];
     // Update and Render the actual view
-    [(MPGameState *)_viewController.view update];
-    [(MPGameState *)_viewController.view render];
+    [currentView update];
+    [currentView render];
     // and looping
     [NSTimer scheduledTimerWithTimeInterval:0.033 target:self selector:@selector(gameLoop:) userInfo:nil repeats:NO];
+}
+
+- (void)doStateChange:(Class)state {
+    // Initialize view controller
+    _window.rootViewController = [[UIViewController alloc] init];
+    // Instantiate new view controller based on sent state
+    NSString *asset = [NSString stringWithFormat:@"%@", state ];
+    MPViewController *newState = [_viewController.storyboard instantiateViewControllerWithIdentifier:asset];
+    // Show new view
+    [_window makeKeyAndVisible];
+    [_window.rootViewController presentViewController:newState animated:NO completion:NULL];
+}
+
+- (UIView *)getCurrentView {
+    return [[[[UIApplication sharedApplication] keyWindow] subviews] lastObject];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
