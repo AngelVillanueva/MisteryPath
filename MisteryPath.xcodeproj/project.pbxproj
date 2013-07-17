@@ -16,18 +16,18 @@
 		848F051E1795DBBD001A4316 /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F051D1795DBBD001A4316 /* MPAppDelegate.m */; };
 		848F05271795DBBD001A4316 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F05251795DBBD001A4316 /* MainStoryboard_iPhone.storyboard */; };
 		848F052A1795DBBD001A4316 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F05281795DBBD001A4316 /* MainStoryboard_iPad.storyboard */; };
-		848F052D1795DBBD001A4316 /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F052C1795DBBD001A4316 /* MPViewController.m */; };
-		848F05351795DBDA001A4316 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05331795DBDA001A4316 /* icon.png */; };
-		848F05361795DBDA001A4316 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05341795DBDA001A4316 /* icon@2x.png */; };
-		848F05431795DC5C001A4316 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F053E1795DC5C001A4316 /* Default-568h@2x.png */; };
-		848F05441795DC5C001A4316 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F053F1795DC5C001A4316 /* Default.png */; };
-		848F05451795DC5C001A4316 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05401795DC5C001A4316 /* Default@2x.png */; };
-		848F05461795DC5C001A4316 /* MainMenu-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05411795DC5C001A4316 /* MainMenu-bg.png */; };
-		848F05471795DC5C001A4316 /* Options-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F05421795DC5C001A4316 /* Options-bg.png */; };
 		848F054A1795DE2F001A4316 /* MPGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F05491795DE2F001A4316 /* MPGameState.m */; };
 		848F054D1795DF35001A4316 /* MPGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F054C1795DF35001A4316 /* MPGameStateManager.m */; };
 		848F05501795E04B001A4316 /* MPExtrasGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F054F1795E04B001A4316 /* MPExtrasGameState.m */; };
 		848F05541795E08A001A4316 /* MPMainMenuGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F05531795E08A001A4316 /* MPMainMenuGameState.m */; };
+		84DC230C1796E5B4000D4096 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23071796E5B4000D4096 /* Default-568h@2x.png */; };
+		84DC230D1796E5B4000D4096 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23081796E5B4000D4096 /* Default.png */; };
+		84DC230E1796E5B4000D4096 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23091796E5B4000D4096 /* Default@2x.png */; };
+		84DC230F1796E5B4000D4096 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC230A1796E5B4000D4096 /* icon.png */; };
+		84DC23101796E5B4000D4096 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC230B1796E5B4000D4096 /* icon@2x.png */; };
+		84DC23131796E616000D4096 /* MainMenu-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23111796E616000D4096 /* MainMenu-bg.png */; };
+		84DC23141796E616000D4096 /* Options-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23121796E616000D4096 /* Options-bg.png */; };
+		84DC23171796E6A6000D4096 /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC23161796E6A6000D4096 /* MPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,15 +45,6 @@
 		848F051D1795DBBD001A4316 /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
 		848F05261795DBBD001A4316 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		848F05291795DBBD001A4316 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		848F052B1795DBBD001A4316 /* MPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
-		848F052C1795DBBD001A4316 /* MPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
-		848F05331795DBDA001A4316 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		848F05341795DBDA001A4316 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		848F053E1795DC5C001A4316 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		848F053F1795DC5C001A4316 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		848F05401795DC5C001A4316 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		848F05411795DC5C001A4316 /* MainMenu-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MainMenu-bg.png"; path = "../MainMenu-bg.png"; sourceTree = "<group>"; };
-		848F05421795DC5C001A4316 /* Options-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Options-bg.png"; path = "../Options-bg.png"; sourceTree = "<group>"; };
 		848F05481795DE2F001A4316 /* MPGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPGameState.h; path = classes/MPGameState.h; sourceTree = "<group>"; };
 		848F05491795DE2F001A4316 /* MPGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPGameState.m; path = classes/MPGameState.m; sourceTree = "<group>"; };
 		848F054B1795DF35001A4316 /* MPGameStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPGameStateManager.h; path = classes/MPGameStateManager.h; sourceTree = "<group>"; };
@@ -62,6 +53,15 @@
 		848F054F1795E04B001A4316 /* MPExtrasGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPExtrasGameState.m; path = "classes/game states/MPExtrasGameState.m"; sourceTree = "<group>"; };
 		848F05521795E08A001A4316 /* MPMainMenuGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPMainMenuGameState.h; path = "classes/game states/MPMainMenuGameState.h"; sourceTree = "<group>"; };
 		848F05531795E08A001A4316 /* MPMainMenuGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPMainMenuGameState.m; path = "classes/game states/MPMainMenuGameState.m"; sourceTree = "<group>"; };
+		84DC23071796E5B4000D4096 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "assets/Default-568h@2x.png"; sourceTree = "<group>"; };
+		84DC23081796E5B4000D4096 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = assets/Default.png; sourceTree = "<group>"; };
+		84DC23091796E5B4000D4096 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "assets/Default@2x.png"; sourceTree = "<group>"; };
+		84DC230A1796E5B4000D4096 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = assets/icon.png; sourceTree = "<group>"; };
+		84DC230B1796E5B4000D4096 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "assets/icon@2x.png"; sourceTree = "<group>"; };
+		84DC23111796E616000D4096 /* MainMenu-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MainMenu-bg.png"; path = "assets/backgrounds/MainMenu-bg.png"; sourceTree = "<group>"; };
+		84DC23121796E616000D4096 /* Options-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Options-bg.png"; path = "assets/backgrounds/Options-bg.png"; sourceTree = "<group>"; };
+		84DC23151796E6A6000D4096 /* MPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPViewController.h; path = controllers/MPViewController.h; sourceTree = "<group>"; };
+		84DC23161796E6A6000D4096 /* MPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPViewController.m; path = controllers/MPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,6 @@
 		848F05011795DBBD001A4316 = {
 			isa = PBXGroup;
 			children = (
-				848F05331795DBDA001A4316 /* icon.png */,
-				848F05341795DBDA001A4316 /* icon@2x.png */,
 				848F05131795DBBD001A4316 /* MisteryPath */,
 				848F050C1795DBBD001A4316 /* Frameworks */,
 				848F050B1795DBBD001A4316 /* Products */,
@@ -125,9 +123,11 @@
 		848F05141795DBBD001A4316 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				848F053E1795DC5C001A4316 /* Default-568h@2x.png */,
-				848F053F1795DC5C001A4316 /* Default.png */,
-				848F05401795DC5C001A4316 /* Default@2x.png */,
+				84DC230A1796E5B4000D4096 /* icon.png */,
+				84DC230B1796E5B4000D4096 /* icon@2x.png */,
+				84DC23071796E5B4000D4096 /* Default-568h@2x.png */,
+				84DC23081796E5B4000D4096 /* Default.png */,
+				84DC23091796E5B4000D4096 /* Default@2x.png */,
 				848F05151795DBBD001A4316 /* MisteryPath-Info.plist */,
 				848F05161795DBBD001A4316 /* InfoPlist.strings */,
 				848F05191795DBBD001A4316 /* main.m */,
@@ -164,8 +164,8 @@
 		848F053A1795DC15001A4316 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				848F052B1795DBBD001A4316 /* MPViewController.h */,
-				848F052C1795DBBD001A4316 /* MPViewController.m */,
+				84DC23151796E6A6000D4096 /* MPViewController.h */,
+				84DC23161796E6A6000D4096 /* MPViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -173,8 +173,8 @@
 		848F053B1795DC21001A4316 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				848F05411795DC5C001A4316 /* MainMenu-bg.png */,
-				848F05421795DC5C001A4316 /* Options-bg.png */,
+				84DC23111796E616000D4096 /* MainMenu-bg.png */,
+				84DC23121796E616000D4096 /* Options-bg.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -266,13 +266,13 @@
 				848F05181795DBBD001A4316 /* InfoPlist.strings in Resources */,
 				848F05271795DBBD001A4316 /* MainStoryboard_iPhone.storyboard in Resources */,
 				848F052A1795DBBD001A4316 /* MainStoryboard_iPad.storyboard in Resources */,
-				848F05351795DBDA001A4316 /* icon.png in Resources */,
-				848F05361795DBDA001A4316 /* icon@2x.png in Resources */,
-				848F05431795DC5C001A4316 /* Default-568h@2x.png in Resources */,
-				848F05441795DC5C001A4316 /* Default.png in Resources */,
-				848F05451795DC5C001A4316 /* Default@2x.png in Resources */,
-				848F05461795DC5C001A4316 /* MainMenu-bg.png in Resources */,
-				848F05471795DC5C001A4316 /* Options-bg.png in Resources */,
+				84DC230C1796E5B4000D4096 /* Default-568h@2x.png in Resources */,
+				84DC230D1796E5B4000D4096 /* Default.png in Resources */,
+				84DC230E1796E5B4000D4096 /* Default@2x.png in Resources */,
+				84DC230F1796E5B4000D4096 /* icon.png in Resources */,
+				84DC23101796E5B4000D4096 /* icon@2x.png in Resources */,
+				84DC23131796E616000D4096 /* MainMenu-bg.png in Resources */,
+				84DC23141796E616000D4096 /* Options-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +285,12 @@
 			files = (
 				848F051A1795DBBD001A4316 /* main.m in Sources */,
 				848F051E1795DBBD001A4316 /* MPAppDelegate.m in Sources */,
-				848F052D1795DBBD001A4316 /* MPViewController.m in Sources */,
 				848F054A1795DE2F001A4316 /* MPGameState.m in Sources */,
 				848F054D1795DF35001A4316 /* MPGameStateManager.m in Sources */,
 				848F05501795E04B001A4316 /* MPExtrasGameState.m in Sources */,
 				848F05541795E08A001A4316 /* MPMainMenuGameState.m in Sources */,
 				84882B8D1796977A00CCAF8B /* MPGameGameState.m in Sources */,
+				84DC23171796E6A6000D4096 /* MPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
