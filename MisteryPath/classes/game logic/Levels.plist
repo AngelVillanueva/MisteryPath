@@ -40,9 +40,9 @@
 		<key>animacion</key>
 		<dict>
 			<key>xPos</key>
-			<integer>120</integer>
+			<integer>200</integer>
 			<key>yPos</key>
-			<integer>125</integer>
+			<integer>100</integer>
 			<key>width</key>
 			<integer>86</integer>
 			<key>height</key>
