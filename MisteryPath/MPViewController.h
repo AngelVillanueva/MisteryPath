@@ -10,4 +10,6 @@
 
 @interface MPViewController : UIViewController
 
+- (void)changeState:(Class)state;
+
 @end

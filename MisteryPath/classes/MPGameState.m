@@ -27,6 +27,14 @@
     return self;
 }
 
+- (void)update {
+    // to be overriden in each state
+}
+
+- (void)render {
+    // to be overriden in each state
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

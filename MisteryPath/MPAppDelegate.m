@@ -7,24 +7,28 @@
 //
 
 #import "MPAppDelegate.h"
-#import "MPMainMenuGameState.h"
+#import "MPViewController.h"
+#import "MPGameState.h"
 
 @implementation MPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    NSLog(@"Delegada");
-    // start loop
-    
-    // launch main menu
-    [self doStateChange:[MPMainMenuGameState class]];
+    // Initialize viewController
+    _viewController = _window.rootViewController;
+    // start looping
+    [NSTimer scheduledTimerWithTimeInterval:0.033 target:self selector:@selector(gameLoop:) userInfo:nil repeats:NO];
     
     return YES;
 }
 
-- (void)doStateChange:(Class)state {
-    NSLog(@"Hello from %@", state);
+- (void)gameLoop:(id)sender {
+    // Update and Render the actual view
+    [(MPGameState *)_viewController.view update];
+    [(MPGameState *)_viewController.view render];
+    // and looping
+    [NSTimer scheduledTimerWithTimeInterval:0.033 target:self selector:@selector(gameLoop:) userInfo:nil repeats:NO];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

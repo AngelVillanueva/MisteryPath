@@ -12,5 +12,8 @@
 @interface MPAppDelegate : MPGameStateManager <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIViewController *viewController;
+
+- (void)gameLoop:(id)sender;
 
 @end

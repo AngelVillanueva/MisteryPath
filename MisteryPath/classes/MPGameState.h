@@ -14,5 +14,7 @@
 }
 
 - (id)initWithManager:(MPGameStateManager *)manager;
+- (void)update;
+- (void)render;
 
 @end

@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="14K-X3-zUz">
             <objects>
-                <viewController id="oo1-Ri-31g" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MPExtrasGameState" id="oo1-Ri-31g" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l26-Kz-u65">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -32,7 +32,7 @@
         <!--View Controller-->
         <scene sceneID="5">
             <objects>
-                <viewController id="2" customClass="MPViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MPMainMenuGameState" id="2" customClass="MPViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3" customClass="MPMainMenuGameState">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
