@@ -30,21 +30,17 @@
         [currentView update];
         [currentView render];
     }
-    NSLog(@"%@", [currentView class]);
-        
     // and looping
     [NSTimer scheduledTimerWithTimeInterval:0.033 target:self selector:@selector(gameLoop:) userInfo:nil repeats:NO];
 }
 
 - (void)doStateChange:(Class)state {
-    // Initialize view controller
-    _window.rootViewController = [[UIViewController alloc] init];
     // Instantiate new view controller based on sent state
     NSString *asset = [NSString stringWithFormat:@"%@", state ];
     MPViewController *newState = [_viewController.storyboard instantiateViewControllerWithIdentifier:asset];
-    // Show new view
+    // Show new view with animation and set the rootViewController on completion
     [_window makeKeyAndVisible];
-    [_window.rootViewController presentViewController:newState animated:NO completion:NULL];
+    [_window.rootViewController presentViewController:newState animated:YES completion:^{_window.rootViewController = newState;}];
 }
 
 - (UIView *)getCurrentView {
