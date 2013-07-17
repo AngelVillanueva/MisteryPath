@@ -25,9 +25,13 @@
 - (void)gameLoop:(id)sender {
     // Get current view
     MPGameState *currentView = (MPGameState *)[self getCurrentView];
-    // Update and Render the actual view
-    [currentView update];
-    [currentView render];
+    // Update and Render the actual view if is a Game State
+    if (currentView.superclass == [MPGameState class]) {
+        [currentView update];
+        [currentView render];
+    }
+    NSLog(@"%@", [currentView class]);
+        
     // and looping
     [NSTimer scheduledTimerWithTimeInterval:0.033 target:self selector:@selector(gameLoop:) userInfo:nil repeats:NO];
 }
