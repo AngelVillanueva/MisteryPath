@@ -41,6 +41,11 @@
     [self presentViewController:menu animated:YES completion:NULL];
 }
 
+- (IBAction)goGame:(id)sender {
+    MPViewController *game = [self.storyboard instantiateViewControllerWithIdentifier:@"MPGameGameState"];
+    [self presentViewController:game animated:YES completion:NULL];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

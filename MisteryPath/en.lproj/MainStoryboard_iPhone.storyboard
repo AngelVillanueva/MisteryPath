@@ -66,13 +66,28 @@
                                     <action selector="goExtras:" destination="2" eventType="touchUpInside" id="TEM-Sa-hVX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHJ-H3-NfV">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Game">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goGame:" destination="2" eventType="touchUpInside" id="Hoq-kY-v6e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="qeV-X7-Yr9" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="7Kj-50-s1D"/>
                             <constraint firstAttribute="trailing" secondItem="O1l-QD-Lm0" secondAttribute="trailing" constant="80" id="7Li-os-WG9"/>
+                            <constraint firstAttribute="bottom" secondItem="cHJ-H3-NfV" secondAttribute="bottom" constant="70" id="8Ke-7K-P1A"/>
                             <constraint firstItem="O1l-QD-Lm0" firstAttribute="top" secondItem="3" secondAttribute="top" constant="125" id="94x-QX-JWC"/>
                             <constraint firstItem="qeV-X7-Yr9" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="OUG-5v-7MY"/>
+                            <constraint firstItem="cHJ-H3-NfV" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="278" id="gGy-bS-w3h"/>
                             <constraint firstItem="qeV-X7-Yr9" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="nw8-hv-I9U"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -87,7 +102,7 @@
         <!--View Controller-->
         <scene sceneID="2E8-2f-tNE">
             <objects>
-                <viewController id="XEV-OV-FSx" customClass="MPViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MPGameGameState" id="XEV-OV-FSx" customClass="MPViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vTU-BO-Qrg" customClass="MPGameGameState">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -149,6 +164,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MPViewController.h"/>
             <relationships>
                 <relationship kind="action" name="goExtras:"/>
+                <relationship kind="action" name="goGame:"/>
                 <relationship kind="action" name="goMenu:"/>
             </relationships>
         </class>
