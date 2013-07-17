@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84882B8D1796977A00CCAF8B /* MPGameGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 84882B8C1796977A00CCAF8B /* MPGameGameState.m */; };
 		848F050E1795DBBD001A4316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F050D1795DBBD001A4316 /* UIKit.framework */; };
 		848F05101795DBBD001A4316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F050F1795DBBD001A4316 /* Foundation.framework */; };
 		848F05121795DBBD001A4316 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F05111795DBBD001A4316 /* CoreGraphics.framework */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84882B8B1796977A00CCAF8B /* MPGameGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPGameGameState.h; path = "classes/game states/MPGameGameState.h"; sourceTree = "<group>"; };
+		84882B8C1796977A00CCAF8B /* MPGameGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPGameGameState.m; path = "classes/game states/MPGameGameState.m"; sourceTree = "<group>"; };
 		848F050A1795DBBD001A4316 /* MisteryPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisteryPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F050D1795DBBD001A4316 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		848F050F1795DBBD001A4316 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -202,6 +205,8 @@
 				848F05531795E08A001A4316 /* MPMainMenuGameState.m */,
 				848F054E1795E04B001A4316 /* MPExtrasGameState.h */,
 				848F054F1795E04B001A4316 /* MPExtrasGameState.m */,
+				84882B8B1796977A00CCAF8B /* MPGameGameState.h */,
+				84882B8C1796977A00CCAF8B /* MPGameGameState.m */,
 			);
 			name = "game states";
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				848F054D1795DF35001A4316 /* MPGameStateManager.m in Sources */,
 				848F05501795E04B001A4316 /* MPExtrasGameState.m in Sources */,
 				848F05541795E08A001A4316 /* MPMainMenuGameState.m in Sources */,
+				84882B8D1796977A00CCAF8B /* MPGameGameState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +425,7 @@
 				848F05321795DBBD001A4316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

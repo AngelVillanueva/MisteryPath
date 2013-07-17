@@ -1,14 +1,14 @@
 //
-//  MPExtrasGameState.m
+//  MPGameGameState.m
 //  MisteryPath
 //
-//  Created by Angel Villanueva Admin on 16/07/13.
+//  Created by Angel Villanueva Admin on 17/07/13.
 //  Copyright (c) 2013 Sinapse Consulting SL. All rights reserved.
 //
 
-#import "MPExtrasGameState.h"
+#import "MPGameGameState.h"
 
-@implementation MPExtrasGameState
+@implementation MPGameGameState
 
 - (id)initWithFrame:(CGRect)frame
 {
