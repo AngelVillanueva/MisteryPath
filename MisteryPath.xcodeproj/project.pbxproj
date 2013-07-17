@@ -28,6 +28,8 @@
 		84DC23131796E616000D4096 /* MainMenu-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23111796E616000D4096 /* MainMenu-bg.png */; };
 		84DC23141796E616000D4096 /* Options-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23121796E616000D4096 /* Options-bg.png */; };
 		84DC23171796E6A6000D4096 /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC23161796E6A6000D4096 /* MPViewController.m */; };
+		84DC231A1796F766000D4096 /* MPWinGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC23191796F766000D4096 /* MPWinGameState.m */; };
+		84DC231D17970794000D4096 /* MPLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC231C17970794000D4096 /* MPLevel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,10 @@
 		84DC23121796E616000D4096 /* Options-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Options-bg.png"; path = "assets/backgrounds/Options-bg.png"; sourceTree = "<group>"; };
 		84DC23151796E6A6000D4096 /* MPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPViewController.h; path = controllers/MPViewController.h; sourceTree = "<group>"; };
 		84DC23161796E6A6000D4096 /* MPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPViewController.m; path = controllers/MPViewController.m; sourceTree = "<group>"; };
+		84DC23181796F765000D4096 /* MPWinGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPWinGameState.h; path = "classes/game states/MPWinGameState.h"; sourceTree = "<group>"; };
+		84DC23191796F766000D4096 /* MPWinGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPWinGameState.m; path = "classes/game states/MPWinGameState.m"; sourceTree = "<group>"; };
+		84DC231B17970794000D4096 /* MPLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPLevel.h; path = "classes/game logic/MPLevel.h"; sourceTree = "<group>"; };
+		84DC231C17970794000D4096 /* MPLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPLevel.m; path = "classes/game logic/MPLevel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,8 +213,20 @@
 				848F054F1795E04B001A4316 /* MPExtrasGameState.m */,
 				84882B8B1796977A00CCAF8B /* MPGameGameState.h */,
 				84882B8C1796977A00CCAF8B /* MPGameGameState.m */,
+				84DC23181796F765000D4096 /* MPWinGameState.h */,
+				84DC23191796F766000D4096 /* MPWinGameState.m */,
+				84DC231E17970850000D4096 /* game logic */,
 			);
 			name = "game states";
+			sourceTree = "<group>";
+		};
+		84DC231E17970850000D4096 /* game logic */ = {
+			isa = PBXGroup;
+			children = (
+				84DC231B17970794000D4096 /* MPLevel.h */,
+				84DC231C17970794000D4096 /* MPLevel.m */,
+			);
+			name = "game logic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +309,8 @@
 				848F05541795E08A001A4316 /* MPMainMenuGameState.m in Sources */,
 				84882B8D1796977A00CCAF8B /* MPGameGameState.m in Sources */,
 				84DC23171796E6A6000D4096 /* MPViewController.m in Sources */,
+				84DC231A1796F766000D4096 /* MPWinGameState.m in Sources */,
+				84DC231D17970794000D4096 /* MPLevel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

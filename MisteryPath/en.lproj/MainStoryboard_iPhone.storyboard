@@ -142,6 +142,34 @@
             </objects>
             <point key="canvasLocation" x="529" y="663"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="MYp-8b-Bv3">
+            <objects>
+                <viewController storyboardIdentifier="MPWinGameState" id="HFJ-1Q-2lv" customClass="MPViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kk6-km-jvT">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You win the Game !!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxc-49-u3I">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kxc-49-u3I" firstAttribute="leading" secondItem="kk6-km-jvT" secondAttribute="leading" constant="224" id="Lw6-Qc-hzW"/>
+                            <constraint firstItem="Kxc-49-u3I" firstAttribute="top" secondItem="kk6-km-jvT" secondAttribute="top" constant="149" id="TFe-GL-1XW"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WbV-vt-8Kt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1351" y="494"/>
+        </scene>
     </scenes>
     <resources>
         <image name="MainMenu-bg.png" width="480" height="320"/>
