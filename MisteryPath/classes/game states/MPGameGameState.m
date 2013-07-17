@@ -15,6 +15,7 @@
 - (void)update {
     // assigns gameManager instance
     gameManager = gameManager ? gameManager : [[UIApplication sharedApplication] delegate];
+    
     // If new game initialize Game
     if (self.current_level == 0) {
         self.current_level = INITIAL_LEVEL;
@@ -36,15 +37,47 @@
             self.areButtonsAdded = NO;
             self.current_path = [[NSMutableArray alloc] initWithCapacity:self.level.movimientos.count];
             self.active_buttons = self.level.movimientos.count;
-            self.isReadyToFinish = YES;
+            self.isReadyToFinishLevel = YES;
             self.animation_key = @"0";
         }
+    }
+    
+    // create animation movie if needed
+    if (self.isNewAnimation == YES) {
+        self.isReadyToFinishLevel = NO;
+        self.animation_to_play = [[MPAnimation alloc] initWithPath:self.animation_key andLevel:self.current_level];
     }
     
 }
 
 - (void)render {
-    //NSLog(@"Rendering from Game");
+    // show Animation if required
+    if (self.isNewAnimation == YES) {
+        [self addSubview:self.animation_to_play.movie];
+        self.isNewAnimation = NO;
+        // remove stopImage from previous Animation
+        [[self viewWithTag:999] removeFromSuperview];
+        // start animation
+        [self.animation_to_play.movie startAnimating];
+        // callback to show a fix image at the end
+        [NSTimer scheduledTimerWithTimeInterval:self.animation_to_play.movie.animationDuration target:self
+                                       selector:@selector(animationDone:)
+                                       userInfo:nil repeats:NO];
+    }
+}
+
+- (void)animationDone:(NSTimer *)inTimer {
+    [inTimer invalidate];
+    inTimer = nil;
+    // recover stopImage for a given animation
+    UIImageView *stopImageView = [ [UIImageView alloc] initWithImage:self.animation_to_play.stopImage];
+    stopImageView.frame = self.animation_to_play.movie.frame;
+    // set tag to stopImage to pave the road for its future removal
+    stopImageView.tag = 999;
+    // add stopImage to view
+    [self addSubview:stopImageView];
+    // allow the level to finish if no active buttons left
+    self.isReadyToFinishLevel = YES;
 }
 
 /*

@@ -30,6 +30,25 @@
 		84DC23171796E6A6000D4096 /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC23161796E6A6000D4096 /* MPViewController.m */; };
 		84DC231A1796F766000D4096 /* MPWinGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC23191796F766000D4096 /* MPWinGameState.m */; };
 		84DC231D17970794000D4096 /* MPLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC231C17970794000D4096 /* MPLevel.m */; };
+		84DC232117970B92000D4096 /* MPAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC232017970B92000D4096 /* MPAnimation.m */; };
+		84DC232517972F60000D4096 /* Animaciones.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84DC232417972F60000D4096 /* Animaciones.plist */; };
+		84DC232717972FBE000D4096 /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84DC232617972FBE000D4096 /* Levels.plist */; };
+		84DC2338179730F4000D4096 /* win_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2328179730EF000D4096 /* win_1.png */; };
+		84DC2339179730F4000D4096 /* win_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2329179730F0000D4096 /* win_2.png */; };
+		84DC233A179730F4000D4096 /* win_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC232A179730F0000D4096 /* win_3.png */; };
+		84DC233B179730F4000D4096 /* win_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC232B179730F0000D4096 /* win_4.png */; };
+		84DC233C179730F4000D4096 /* win_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC232C179730F0000D4096 /* win_5.png */; };
+		84DC233D179730F4000D4096 /* win_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC232D179730F1000D4096 /* win_6.png */; };
+		84DC233E179730F4000D4096 /* win_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC232E179730F1000D4096 /* win_7.png */; };
+		84DC233F179730F4000D4096 /* win_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC232F179730F1000D4096 /* win_8.png */; };
+		84DC2340179730F4000D4096 /* win_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2330179730F1000D4096 /* win_9.png */; };
+		84DC2341179730F4000D4096 /* win_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2331179730F1000D4096 /* win_10.png */; };
+		84DC2342179730F4000D4096 /* win_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2332179730F3000D4096 /* win_11.png */; };
+		84DC2343179730F4000D4096 /* win_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2333179730F3000D4096 /* win_12.png */; };
+		84DC2344179730F4000D4096 /* win_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2334179730F3000D4096 /* win_13.png */; };
+		84DC2345179730F4000D4096 /* win_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2335179730F3000D4096 /* win_14.png */; };
+		84DC2346179730F4000D4096 /* win_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2336179730F4000D4096 /* win_15.png */; };
+		84DC2347179730F4000D4096 /* win_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC2337179730F4000D4096 /* win_16.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +87,26 @@
 		84DC23191796F766000D4096 /* MPWinGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPWinGameState.m; path = "classes/game states/MPWinGameState.m"; sourceTree = "<group>"; };
 		84DC231B17970794000D4096 /* MPLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPLevel.h; path = "classes/game logic/MPLevel.h"; sourceTree = "<group>"; };
 		84DC231C17970794000D4096 /* MPLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPLevel.m; path = "classes/game logic/MPLevel.m"; sourceTree = "<group>"; };
+		84DC231F17970B91000D4096 /* MPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPAnimation.h; path = "classes/game logic/MPAnimation.h"; sourceTree = "<group>"; };
+		84DC232017970B92000D4096 /* MPAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPAnimation.m; path = "classes/game logic/MPAnimation.m"; sourceTree = "<group>"; };
+		84DC232417972F60000D4096 /* Animaciones.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Animaciones.plist; path = "classes/game logic/Animaciones.plist"; sourceTree = "<group>"; };
+		84DC232617972FBE000D4096 /* Levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Levels.plist; path = "classes/game logic/Levels.plist"; sourceTree = "<group>"; };
+		84DC2328179730EF000D4096 /* win_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_1.png; path = "assets/animaciones/1-0/win_1.png"; sourceTree = "<group>"; };
+		84DC2329179730F0000D4096 /* win_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_2.png; path = "assets/animaciones/1-0/win_2.png"; sourceTree = "<group>"; };
+		84DC232A179730F0000D4096 /* win_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_3.png; path = "assets/animaciones/1-0/win_3.png"; sourceTree = "<group>"; };
+		84DC232B179730F0000D4096 /* win_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_4.png; path = "assets/animaciones/1-0/win_4.png"; sourceTree = "<group>"; };
+		84DC232C179730F0000D4096 /* win_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_5.png; path = "assets/animaciones/1-0/win_5.png"; sourceTree = "<group>"; };
+		84DC232D179730F1000D4096 /* win_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_6.png; path = "assets/animaciones/1-0/win_6.png"; sourceTree = "<group>"; };
+		84DC232E179730F1000D4096 /* win_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_7.png; path = "assets/animaciones/1-0/win_7.png"; sourceTree = "<group>"; };
+		84DC232F179730F1000D4096 /* win_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_8.png; path = "assets/animaciones/1-0/win_8.png"; sourceTree = "<group>"; };
+		84DC2330179730F1000D4096 /* win_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_9.png; path = "assets/animaciones/1-0/win_9.png"; sourceTree = "<group>"; };
+		84DC2331179730F1000D4096 /* win_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_10.png; path = "assets/animaciones/1-0/win_10.png"; sourceTree = "<group>"; };
+		84DC2332179730F3000D4096 /* win_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_11.png; path = "assets/animaciones/1-0/win_11.png"; sourceTree = "<group>"; };
+		84DC2333179730F3000D4096 /* win_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_12.png; path = "assets/animaciones/1-0/win_12.png"; sourceTree = "<group>"; };
+		84DC2334179730F3000D4096 /* win_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_13.png; path = "assets/animaciones/1-0/win_13.png"; sourceTree = "<group>"; };
+		84DC2335179730F3000D4096 /* win_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_14.png; path = "assets/animaciones/1-0/win_14.png"; sourceTree = "<group>"; };
+		84DC2336179730F4000D4096 /* win_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_15.png; path = "assets/animaciones/1-0/win_15.png"; sourceTree = "<group>"; };
+		84DC2337179730F4000D4096 /* win_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_16.png; path = "assets/animaciones/1-0/win_16.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,8 +218,8 @@
 		848F053B1795DC21001A4316 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				84DC23111796E616000D4096 /* MainMenu-bg.png */,
-				84DC23121796E616000D4096 /* Options-bg.png */,
+				84DC234A17973116000D4096 /* animaciones */,
+				84DC23491797310B000D4096 /* backgrounds */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -225,8 +264,52 @@
 			children = (
 				84DC231B17970794000D4096 /* MPLevel.h */,
 				84DC231C17970794000D4096 /* MPLevel.m */,
+				84DC232617972FBE000D4096 /* Levels.plist */,
+				84DC231F17970B91000D4096 /* MPAnimation.h */,
+				84DC232017970B92000D4096 /* MPAnimation.m */,
+				84DC232417972F60000D4096 /* Animaciones.plist */,
 			);
 			name = "game logic";
+			sourceTree = "<group>";
+		};
+		84DC2348179730FB000D4096 /* 1-0 */ = {
+			isa = PBXGroup;
+			children = (
+				84DC2328179730EF000D4096 /* win_1.png */,
+				84DC2329179730F0000D4096 /* win_2.png */,
+				84DC232A179730F0000D4096 /* win_3.png */,
+				84DC232B179730F0000D4096 /* win_4.png */,
+				84DC232C179730F0000D4096 /* win_5.png */,
+				84DC232D179730F1000D4096 /* win_6.png */,
+				84DC232E179730F1000D4096 /* win_7.png */,
+				84DC232F179730F1000D4096 /* win_8.png */,
+				84DC2330179730F1000D4096 /* win_9.png */,
+				84DC2331179730F1000D4096 /* win_10.png */,
+				84DC2332179730F3000D4096 /* win_11.png */,
+				84DC2333179730F3000D4096 /* win_12.png */,
+				84DC2334179730F3000D4096 /* win_13.png */,
+				84DC2335179730F3000D4096 /* win_14.png */,
+				84DC2336179730F4000D4096 /* win_15.png */,
+				84DC2337179730F4000D4096 /* win_16.png */,
+			);
+			name = "1-0";
+			sourceTree = "<group>";
+		};
+		84DC23491797310B000D4096 /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				84DC23111796E616000D4096 /* MainMenu-bg.png */,
+				84DC23121796E616000D4096 /* Options-bg.png */,
+			);
+			name = backgrounds;
+			sourceTree = "<group>";
+		};
+		84DC234A17973116000D4096 /* animaciones */ = {
+			isa = PBXGroup;
+			children = (
+				84DC2348179730FB000D4096 /* 1-0 */,
+			);
+			name = animaciones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +374,24 @@
 				84DC23101796E5B4000D4096 /* icon@2x.png in Resources */,
 				84DC23131796E616000D4096 /* MainMenu-bg.png in Resources */,
 				84DC23141796E616000D4096 /* Options-bg.png in Resources */,
+				84DC232517972F60000D4096 /* Animaciones.plist in Resources */,
+				84DC232717972FBE000D4096 /* Levels.plist in Resources */,
+				84DC2338179730F4000D4096 /* win_1.png in Resources */,
+				84DC2339179730F4000D4096 /* win_2.png in Resources */,
+				84DC233A179730F4000D4096 /* win_3.png in Resources */,
+				84DC233B179730F4000D4096 /* win_4.png in Resources */,
+				84DC233C179730F4000D4096 /* win_5.png in Resources */,
+				84DC233D179730F4000D4096 /* win_6.png in Resources */,
+				84DC233E179730F4000D4096 /* win_7.png in Resources */,
+				84DC233F179730F4000D4096 /* win_8.png in Resources */,
+				84DC2340179730F4000D4096 /* win_9.png in Resources */,
+				84DC2341179730F4000D4096 /* win_10.png in Resources */,
+				84DC2342179730F4000D4096 /* win_11.png in Resources */,
+				84DC2343179730F4000D4096 /* win_12.png in Resources */,
+				84DC2344179730F4000D4096 /* win_13.png in Resources */,
+				84DC2345179730F4000D4096 /* win_14.png in Resources */,
+				84DC2346179730F4000D4096 /* win_15.png in Resources */,
+				84DC2347179730F4000D4096 /* win_16.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +412,7 @@
 				84DC23171796E6A6000D4096 /* MPViewController.m in Sources */,
 				84DC231A1796F766000D4096 /* MPWinGameState.m in Sources */,
 				84DC231D17970794000D4096 /* MPLevel.m in Sources */,
+				84DC232117970B92000D4096 /* MPAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

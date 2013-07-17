@@ -7,7 +7,8 @@
 //
 
 #import "MPGameState.h"
-#import "MPLevel.h"
+#include "MPLevel.h"
+#include "MPAnimation.h"
 
 @interface MPGameGameState : MPGameState
 
@@ -17,10 +18,13 @@
 @property BOOL isNewLevel;
 @property BOOL isNewAnimation;
 @property BOOL areButtonsAdded;
-@property BOOL isReadyToFinish;
+@property BOOL isReadyToFinishLevel;
 @property MPLevel *level;
+@property MPAnimation *animation_to_play;
 @property NSMutableArray *current_path;
 @property NSString *animation_key;
+
+- (void)animationDone:(NSTimer *)inTimer;
 
 - (IBAction)goMenu:(id)sender;
 
