@@ -12,7 +12,6 @@
 
 - (id)initWithPath:(NSString *)path andLevel:(int)level {
     if (self = [super init]) {
-        NSLog(@"p %@ and l %d", path, level);
         // read animacion properties from Levels plist
         NSDictionary *mainDictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Levels" ofType:@"plist"]];
         NSString *levelKey = [NSString stringWithFormat:@"%d", level];

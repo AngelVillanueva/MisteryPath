@@ -25,6 +25,7 @@
 @property NSString *animation_key;
 
 - (void)animationDone:(NSTimer *)inTimer;
+- (IBAction)buttonPressed:(id)sender;
 
 - (IBAction)goMenu:(id)sender;
 

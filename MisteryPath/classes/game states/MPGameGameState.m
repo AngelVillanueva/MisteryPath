@@ -9,6 +9,9 @@
 #import "MPGameGameState.h"
 #import "MPMainMenuGameState.h"
 #import "MPWinGameState.h"
+#import "MPGameOverGameState.h"
+#import "MPWinLevelGameState.h"
+#import "MPMovimiento.h"
 
 @implementation MPGameGameState
 
@@ -48,6 +51,34 @@
         self.animation_to_play = [[MPAnimation alloc] initWithPath:self.animation_key andLevel:self.current_level];
     }
     
+    // if no active_buttons you win the level or the the game is over
+    if (self.active_buttons == 0 && self.isReadyToFinishLevel == YES) {
+        // GAME OVER if no active buttons and no winning path
+        if (![self.current_path isEqualToArray:self.level.camino_misterioso]) {
+            [gameManager doStateChange:[MPGameOverGameState class]];
+        } else {
+            self.current_level++;
+            [gameManager doStateChange:[MPWinLevelGameState class]];
+        }
+    }
+    
+    // add active buttons if not added yet
+    if (self.areButtonsAdded == NO) {
+        for (int i = 0; i < self.level.movimientos.count; i++) {
+            // create button based on Level plist --> Movimiento plist
+            NSString *movimientoKey = [ NSString stringWithFormat:@"%@", self.level.movimientos[i] ];
+            CGFloat x = [self.level.posiciones[i][0] floatValue];
+            CGFloat y = [self.level.posiciones[i][1] floatValue];
+            UIButton *button = [MPMovimiento forKey:movimientoKey andXpos:x andYpos:y];
+            // link button to action
+            [ button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside ];
+            // add button to View
+            [self addSubview:button];
+            // not draw the buttons again
+            self.areButtonsAdded = YES;
+        }
+    }
+    
 }
 
 - (void)render {
@@ -78,6 +109,21 @@
     [self addSubview:stopImageView];
     // allow the level to finish if no active buttons left
     self.isReadyToFinishLevel = YES;
+}
+
+- (IBAction)buttonPressed:(id)sender {
+    // substracts one from active_button to check if the game is over
+    self.active_buttons--;
+    // inactive already pressed button
+    UIButton *thisButton = (UIButton *)sender;
+    thisButton.enabled = NO;
+    // add the button action to the current path, looking for the Camino Misterioso
+    NSString *path = thisButton.titleLabel.text;
+    [self.current_path addObject:path];
+    // concatenate the button tag with the previous chain to build the animation key to select the right frames in plist
+    self.animation_key = [ NSString stringWithFormat:@"%@%@", self.animation_key, [@(thisButton.tag)  stringValue]];
+    // trigger new animation
+    self.isNewAnimation = YES;
 }
 
 /*

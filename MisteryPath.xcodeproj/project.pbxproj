@@ -20,6 +20,19 @@
 		848F054D1795DF35001A4316 /* MPGameStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F054C1795DF35001A4316 /* MPGameStateManager.m */; };
 		848F05501795E04B001A4316 /* MPExtrasGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F054F1795E04B001A4316 /* MPExtrasGameState.m */; };
 		848F05541795E08A001A4316 /* MPMainMenuGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F05531795E08A001A4316 /* MPMainMenuGameState.m */; };
+		849026541797371500A7F4BF /* NSMutableArray_Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 849026531797371500A7F4BF /* NSMutableArray_Shuffling.m */; };
+		84902657179739CA00A7F4BF /* MPGameOverGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 84902656179739CA00A7F4BF /* MPGameOverGameState.m */; };
+		8490265A17973A0C00A7F4BF /* MPWinLevelGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490265917973A0C00A7F4BF /* MPWinLevelGameState.m */; };
+		8490265D17973BF000A7F4BF /* MPMovimiento.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490265C17973BF000A7F4BF /* MPMovimiento.m */; };
+		8490265F17973D0000A7F4BF /* Movimientos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8490265E17973CFF00A7F4BF /* Movimientos.plist */; };
+		849026EF17973DAB00A7F4BF /* bed.png in Resources */ = {isa = PBXBuildFile; fileRef = 849026E717973DA700A7F4BF /* bed.png */; };
+		849026F017973DAB00A7F4BF /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 849026E817973DA700A7F4BF /* bomb.png */; };
+		849026F117973DAB00A7F4BF /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 849026E917973DA800A7F4BF /* map.png */; };
+		849026F217973DAB00A7F4BF /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 849026EA17973DA800A7F4BF /* ship.png */; };
+		849026F317973DAB00A7F4BF /* sleigh.png in Resources */ = {isa = PBXBuildFile; fileRef = 849026EB17973DA900A7F4BF /* sleigh.png */; };
+		849026F417973DAB00A7F4BF /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 849026EC17973DA900A7F4BF /* snow.png */; };
+		849026F517973DAB00A7F4BF /* snowman.png in Resources */ = {isa = PBXBuildFile; fileRef = 849026ED17973DAA00A7F4BF /* snowman.png */; };
+		849026F617973DAB00A7F4BF /* sword.png in Resources */ = {isa = PBXBuildFile; fileRef = 849026EE17973DAA00A7F4BF /* sword.png */; };
 		84DC230C1796E5B4000D4096 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23071796E5B4000D4096 /* Default-568h@2x.png */; };
 		84DC230D1796E5B4000D4096 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23081796E5B4000D4096 /* Default.png */; };
 		84DC230E1796E5B4000D4096 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DC23091796E5B4000D4096 /* Default@2x.png */; };
@@ -74,6 +87,23 @@
 		848F054F1795E04B001A4316 /* MPExtrasGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPExtrasGameState.m; path = "classes/game states/MPExtrasGameState.m"; sourceTree = "<group>"; };
 		848F05521795E08A001A4316 /* MPMainMenuGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPMainMenuGameState.h; path = "classes/game states/MPMainMenuGameState.h"; sourceTree = "<group>"; };
 		848F05531795E08A001A4316 /* MPMainMenuGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPMainMenuGameState.m; path = "classes/game states/MPMainMenuGameState.m"; sourceTree = "<group>"; };
+		849026521797371500A7F4BF /* NSMutableArray_Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArray_Shuffling.h; path = categories/NSMutableArray_Shuffling.h; sourceTree = "<group>"; };
+		849026531797371500A7F4BF /* NSMutableArray_Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArray_Shuffling.m; path = categories/NSMutableArray_Shuffling.m; sourceTree = "<group>"; };
+		84902655179739CA00A7F4BF /* MPGameOverGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPGameOverGameState.h; path = "classes/game states/MPGameOverGameState.h"; sourceTree = "<group>"; };
+		84902656179739CA00A7F4BF /* MPGameOverGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPGameOverGameState.m; path = "classes/game states/MPGameOverGameState.m"; sourceTree = "<group>"; };
+		8490265817973A0C00A7F4BF /* MPWinLevelGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPWinLevelGameState.h; path = "classes/game states/MPWinLevelGameState.h"; sourceTree = "<group>"; };
+		8490265917973A0C00A7F4BF /* MPWinLevelGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPWinLevelGameState.m; path = "classes/game states/MPWinLevelGameState.m"; sourceTree = "<group>"; };
+		8490265B17973BF000A7F4BF /* MPMovimiento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPMovimiento.h; path = "classes/game logic/MPMovimiento.h"; sourceTree = "<group>"; };
+		8490265C17973BF000A7F4BF /* MPMovimiento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPMovimiento.m; path = "classes/game logic/MPMovimiento.m"; sourceTree = "<group>"; };
+		8490265E17973CFF00A7F4BF /* Movimientos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Movimientos.plist; path = "classes/game logic/Movimientos.plist"; sourceTree = "<group>"; };
+		849026E717973DA700A7F4BF /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bed.png; path = MisteryPath/assets/movimientos/bed.png; sourceTree = "<group>"; };
+		849026E817973DA700A7F4BF /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bomb.png; path = MisteryPath/assets/movimientos/bomb.png; sourceTree = "<group>"; };
+		849026E917973DA800A7F4BF /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = MisteryPath/assets/movimientos/map.png; sourceTree = "<group>"; };
+		849026EA17973DA800A7F4BF /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ship.png; path = MisteryPath/assets/movimientos/ship.png; sourceTree = "<group>"; };
+		849026EB17973DA900A7F4BF /* sleigh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sleigh.png; path = MisteryPath/assets/movimientos/sleigh.png; sourceTree = "<group>"; };
+		849026EC17973DA900A7F4BF /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow.png; path = MisteryPath/assets/movimientos/snow.png; sourceTree = "<group>"; };
+		849026ED17973DAA00A7F4BF /* snowman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snowman.png; path = MisteryPath/assets/movimientos/snowman.png; sourceTree = "<group>"; };
+		849026EE17973DAA00A7F4BF /* sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sword.png; path = MisteryPath/assets/movimientos/sword.png; sourceTree = "<group>"; };
 		84DC23071796E5B4000D4096 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "assets/Default-568h@2x.png"; sourceTree = "<group>"; };
 		84DC23081796E5B4000D4096 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = assets/Default.png; sourceTree = "<group>"; };
 		84DC23091796E5B4000D4096 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "assets/Default@2x.png"; sourceTree = "<group>"; };
@@ -218,6 +248,7 @@
 		848F053B1795DC21001A4316 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				849026F717973DB100A7F4BF /* movimientos */,
 				84DC234A17973116000D4096 /* animaciones */,
 				84DC23491797310B000D4096 /* backgrounds */,
 			);
@@ -227,6 +258,8 @@
 		848F053C1795DC28001A4316 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				849026521797371500A7F4BF /* NSMutableArray_Shuffling.h */,
+				849026531797371500A7F4BF /* NSMutableArray_Shuffling.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -252,11 +285,31 @@
 				848F054F1795E04B001A4316 /* MPExtrasGameState.m */,
 				84882B8B1796977A00CCAF8B /* MPGameGameState.h */,
 				84882B8C1796977A00CCAF8B /* MPGameGameState.m */,
+				8490265817973A0C00A7F4BF /* MPWinLevelGameState.h */,
+				8490265917973A0C00A7F4BF /* MPWinLevelGameState.m */,
+				84902655179739CA00A7F4BF /* MPGameOverGameState.h */,
+				84902656179739CA00A7F4BF /* MPGameOverGameState.m */,
 				84DC23181796F765000D4096 /* MPWinGameState.h */,
 				84DC23191796F766000D4096 /* MPWinGameState.m */,
 				84DC231E17970850000D4096 /* game logic */,
 			);
 			name = "game states";
+			sourceTree = "<group>";
+		};
+		849026F717973DB100A7F4BF /* movimientos */ = {
+			isa = PBXGroup;
+			children = (
+				849026E717973DA700A7F4BF /* bed.png */,
+				849026E817973DA700A7F4BF /* bomb.png */,
+				849026E917973DA800A7F4BF /* map.png */,
+				849026EA17973DA800A7F4BF /* ship.png */,
+				849026EB17973DA900A7F4BF /* sleigh.png */,
+				849026EC17973DA900A7F4BF /* snow.png */,
+				849026ED17973DAA00A7F4BF /* snowman.png */,
+				849026EE17973DAA00A7F4BF /* sword.png */,
+			);
+			name = movimientos;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		84DC231E17970850000D4096 /* game logic */ = {
@@ -268,6 +321,9 @@
 				84DC231F17970B91000D4096 /* MPAnimation.h */,
 				84DC232017970B92000D4096 /* MPAnimation.m */,
 				84DC232417972F60000D4096 /* Animaciones.plist */,
+				8490265B17973BF000A7F4BF /* MPMovimiento.h */,
+				8490265C17973BF000A7F4BF /* MPMovimiento.m */,
+				8490265E17973CFF00A7F4BF /* Movimientos.plist */,
 			);
 			name = "game logic";
 			sourceTree = "<group>";
@@ -392,6 +448,15 @@
 				84DC2345179730F4000D4096 /* win_14.png in Resources */,
 				84DC2346179730F4000D4096 /* win_15.png in Resources */,
 				84DC2347179730F4000D4096 /* win_16.png in Resources */,
+				8490265F17973D0000A7F4BF /* Movimientos.plist in Resources */,
+				849026EF17973DAB00A7F4BF /* bed.png in Resources */,
+				849026F017973DAB00A7F4BF /* bomb.png in Resources */,
+				849026F117973DAB00A7F4BF /* map.png in Resources */,
+				849026F217973DAB00A7F4BF /* ship.png in Resources */,
+				849026F317973DAB00A7F4BF /* sleigh.png in Resources */,
+				849026F417973DAB00A7F4BF /* snow.png in Resources */,
+				849026F517973DAB00A7F4BF /* snowman.png in Resources */,
+				849026F617973DAB00A7F4BF /* sword.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +478,10 @@
 				84DC231A1796F766000D4096 /* MPWinGameState.m in Sources */,
 				84DC231D17970794000D4096 /* MPLevel.m in Sources */,
 				84DC232117970B92000D4096 /* MPAnimation.m in Sources */,
+				849026541797371500A7F4BF /* NSMutableArray_Shuffling.m in Sources */,
+				84902657179739CA00A7F4BF /* MPGameOverGameState.m in Sources */,
+				8490265A17973A0C00A7F4BF /* MPWinLevelGameState.m in Sources */,
+				8490265D17973BF000A7F4BF /* MPMovimiento.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
