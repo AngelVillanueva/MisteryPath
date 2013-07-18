@@ -34,13 +34,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    UITouch *touch = [touches anyObject];
-    NSUInteger numTaps = [touch tapCount];
-    // todo: implement touch code
-    if (numTaps > 1) {
-        NSLog(@"tapped %d time", numTaps);
-    }
-}
-
 @end
