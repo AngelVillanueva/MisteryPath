@@ -10,4 +10,6 @@
 
 @interface MPWinLevelGameState : MPGameState
 
+- (IBAction)goNextLevel:(id)sender;
+
 @end

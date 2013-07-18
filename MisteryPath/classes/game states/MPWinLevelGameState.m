@@ -7,6 +7,7 @@
 //
 
 #import "MPWinLevelGameState.h"
+#import "MPGameGameState.h"
 
 @implementation MPWinLevelGameState
 
@@ -28,4 +29,8 @@
 }
 */
 
+- (IBAction)goNextLevel:(id)sender {
+    gameManager = gameManager ? gameManager : [[UIApplication sharedApplication] delegate];
+    [gameManager doStateChange:[MPGameGameState class]];
+}
 @end
