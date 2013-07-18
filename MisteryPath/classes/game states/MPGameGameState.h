@@ -12,7 +12,6 @@
 
 @interface MPGameGameState : MPGameState
 
-@property NSInteger maximum_level;
 @property NSInteger current_level;
 @property NSInteger active_buttons;
 @property BOOL isNewLevel;

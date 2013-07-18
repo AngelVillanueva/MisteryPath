@@ -19,19 +19,17 @@
     // assigns gameManager instance
     gameManager = gameManager ? gameManager : [[UIApplication sharedApplication] delegate];
     
-    // If new game initialize Game
+    // If new state initialize Game
     if (self.current_level == 0) {
-        self.current_level = INITIAL_LEVEL;
-        self.maximum_level = MAXIMUM_LEVEL;
+        self.current_level = gameManager.current_level;
         self.isNewLevel = YES;
-        //NSLog(@"Game init with level %d de %d (es nuevo %c)", self.current_level, self.maximum_level, self.isNewLevel);
     }
     
     // If this is a new level we need to initialized it
     if (self.isNewLevel == YES) {
         self.isNewLevel = NO;
         // If there are no more levels to load then load the WinGame state: kudos, you Won the Game! (except if this is the first level, which is always loaded)
-        if (self.current_level != 1 && self.current_level > self.maximum_level) {
+        if (self.current_level != 1 && self.current_level > MAXIMUM_LEVEL) {
             [gameManager doStateChange:[MPWinGameState class]];
         } else {
         // Load new level
@@ -57,7 +55,7 @@
         if (![self.current_path isEqualToArray:self.level.camino_misterioso]) {
             [gameManager doStateChange:[MPGameOverGameState class]];
         } else {
-            self.current_level++;
+            gameManager.current_level++;
             [gameManager doStateChange:[MPWinLevelGameState class]];
         }
     }

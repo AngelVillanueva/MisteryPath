@@ -10,7 +10,6 @@
 
 @interface MPGameStateManager : NSObject
 
-@property NSInteger maximum_level;
 @property NSInteger current_level;
 
 - (void)doStateChange:(Class)state;

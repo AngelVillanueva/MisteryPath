@@ -10,7 +10,12 @@
 
 @implementation MPGameStateManager
 
--(void)doStateChange:(Class)state {
+- (id)init {
+    self.current_level = INITIAL_LEVEL;
+    return self;
+}
+
+- (void)doStateChange:(Class)state {
     // to be overriden in AppDelegate
 }
 
