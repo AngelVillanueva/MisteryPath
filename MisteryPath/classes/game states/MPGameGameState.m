@@ -30,6 +30,7 @@
         self.isNewLevel = NO;
         // If there are no more levels to load then load the WinGame state: kudos, you Won the Game! (except if this is the first level, which is always loaded)
         if (self.current_level != 1 && self.current_level > MAXIMUM_LEVEL) {
+            gameManager.current_level = INITIAL_LEVEL;
             [gameManager doStateChange:[MPWinGameState class]];
         } else {
         // Load new level
@@ -53,8 +54,11 @@
     if (self.active_buttons == 0 && self.isReadyToFinishLevel == YES) {
         // GAME OVER if no active buttons and no winning path
         if (![self.current_path isEqualToArray:self.level.camino_misterioso]) {
+            // go back to Level 1
+            gameManager.current_level = INITIAL_LEVEL;
             [gameManager doStateChange:[MPGameOverGameState class]];
         } else {
+            // if winning path then go to Next level
             gameManager.current_level++;
             [gameManager doStateChange:[MPWinLevelGameState class]];
         }
